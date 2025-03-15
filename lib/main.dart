@@ -1,14 +1,19 @@
 import 'package:flutter/material.dart';
-import './pages/home.dart';
+import 'screens/home/pages/home.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const FreebeesEcom());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class FreebeesEcom extends StatelessWidget {
+  const FreebeesEcom({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Home());
+    return MaterialApp(
+      title: "Freebees E-com",
+      debugShowCheckedModeBanner: false,
+      home: Home(),
+    );
   }
 }
