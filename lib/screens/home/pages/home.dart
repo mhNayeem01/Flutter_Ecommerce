@@ -89,8 +89,10 @@ class Home extends StatelessWidget {
                                 Row(
                                   children: [
                                     Icon(Icons.star,
-                                        color: Colors.amber, size: 16),
-                                    Text(" 4.6"),
+                                        color: const Color.fromARGB(
+                                            255, 29, 35, 226),
+                                        size: 16),
+                                    Text(" 2.6"),
                                     Text(" 86 Reviews",
                                         style: TextStyle(color: Colors.grey)),
                                   ],
